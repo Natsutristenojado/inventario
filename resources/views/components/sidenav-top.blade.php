@@ -21,11 +21,6 @@
                     Wallet
                 </a>
             </li>
-            <li class="nav-item px-3 py-3 border-radius-sm  d-flex align-items-center">
-                <a href="{{ route('RTL') }}" class="nav-link text-white p-0">
-                    RTL
-                </a>
-            </li>
         </ul>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
             <ul class="navbar-nav ms-md-auto  justify-content-end">
@@ -182,3 +177,4 @@
         </div>
     </div>
 </nav>
+

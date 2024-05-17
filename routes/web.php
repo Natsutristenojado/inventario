@@ -35,10 +35,6 @@ Route::get('/wallet', function () {
     return view('wallet');
 })->name('wallet')->middleware('auth');
 
-Route::get('/RTL', function () {
-    return view('RTL');
-})->name('RTL')->middleware('auth');
-
 Route::get('/profile', function () {
     return view('account-pages.profile');
 })->name('profile')->middleware('auth');
